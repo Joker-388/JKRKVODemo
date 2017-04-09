@@ -431,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKRKVODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRKVODemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKRKVODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRKVODemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +515,7 @@
 				432912F51E8E3C4B00411B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432912F61E8E3C4B00411B7E /* Build configuration list for PBXNativeTarget "JKRKVODemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +524,7 @@
 				432912F81E8E3C4B00411B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432912F91E8E3C4B00411B7E /* Build configuration list for PBXNativeTarget "JKRKVODemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +533,7 @@
 				432912FB1E8E3C4B00411B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -58,24 +58,24 @@
 }
 
 - (void)setJkr_observer_keyPaths:(NSMutableArray<NSString *> *)jkr_observer_keyPaths {
-    objc_setAssociatedObject(self, @"jkr_observer_keyPaths", jkr_observer_keyPaths, OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, "jkr_observer_keyPaths", jkr_observer_keyPaths, OBJC_ASSOCIATION_RETAIN);
 }
 
 - (NSMutableArray<NSString *> *)jkr_observer_keyPaths {
-    NSMutableArray *keyPaths = objc_getAssociatedObject(self, @"jkr_observer_keyPaths");
+    NSMutableArray *keyPaths = objc_getAssociatedObject(self, "jkr_observer_keyPaths");
     if (!keyPaths) {
         keyPaths = [NSMutableArray array];
-        objc_setAssociatedObject(self, @"jkr_observer_keyPaths", keyPaths, OBJC_ASSOCIATION_RETAIN);
+        objc_setAssociatedObject(self, "jkr_observer_keyPaths", keyPaths, OBJC_ASSOCIATION_RETAIN);
     }
     return keyPaths;
 }
 
 - (NSObject *)jkr_observer_observerdObject {
-    return objc_getAssociatedObject(self, @"jkr_observer_observerdObject");
+    return objc_getAssociatedObject(self, "jkr_observer_observerdObject");
 }
 
 - (void)setJkr_observer_observerdObject:(NSObject *)jkr_observer_observerdObject {
-    objc_setAssociatedObject(self, @"jkr_observer_observerdObject", jkr_observer_observerdObject, OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, "jkr_observer_observerdObject", jkr_observer_observerdObject, OBJC_ASSOCIATION_ASSIGN);
 }
 
 - (void)jkr_dealloc {
